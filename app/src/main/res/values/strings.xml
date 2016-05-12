@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MovieShowApp1</string>
+    <string name="sort_by">Sort By</string>
+    <string name="action_favorite">Favorite</string>
+    <string name="action_popular">Sort By Popularity</string>
+    <string name="action_rating">Sort By Rating</string>
+
+
+    <!-- preference screen -->
+    <string name="pref_sort">Sort</string>
+    <string name="pref_sort_key" translatable="false">sort</string>
+    <string name="pref_sort_default">popularity.desc</string>
+
+
+    <string name="movie_poster">Poster</string>
+    <!-- url for movie poster & back image -->
+    <string name="url_for_movie_poster">http://image.tmdb.org/t/p/w342</string>
+    <string name="url_for_movie_backdrop">http://image.tmdb.org/t/p/original</string>
+
+
+    <string name="action_share">Shares</string>
+    <!-- Shared Transitions -->
+    <string name="imgPoster" translatable="false">poster</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_favorite">FavoriteActivity</string>
+</resources>

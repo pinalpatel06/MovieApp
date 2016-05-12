@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/sort_by"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group
+                android:id="@+id/menu_sort"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sort_popular"
+                    android:checked="true"
+                    android:title="@string/action_popular" />
+                <item
+                    android:title="@string/action_rating"
+                    android:id="@+id/sort_rating"/>
+                <item
+                    android:id="@+id/action_favorite"
+                    android:title="@string/action_favorite" />
+
+            </group>
+        </menu>
+    </item>
+</menu>
